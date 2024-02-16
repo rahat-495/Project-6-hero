@@ -35,7 +35,7 @@ function getTextElementById (elementId) {
     const element = document.getElementById(elementId)
     const valueText = element.innerText ;
     const value = parseInt(valueText) ;
-    return value
+    return value ;
 }
 
 function setElementValueById ( elementId , value ) {
